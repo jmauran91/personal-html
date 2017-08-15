@@ -24,7 +24,6 @@
 }
 
 #projects h3 {
-  margin-top: 3em;
   font-family: 'Fira Sans', sans-serif;
   font-size: 140%;
   color: white;
@@ -36,6 +35,13 @@
   line-height: 180%;
 }
 
+#projects p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 100%;
+  line-height: 180%;
+
+}
+
 div #projhead{
   display: block;
 }
@@ -44,22 +50,41 @@ div #projduo {
   margin-top: 1.2em;
 }
 
+
+
 #proj1 {
-  margin: 2px;
-  margin-right: 3em;;
-  margin-left: 3em;
-  display: inline;
+  margin: 0px;
+  padding-right: 3em;;
+  padding-left: 3em;
+  display: inline-block;
   float: left;
   width: 30%;
 }
 
 #proj2 {
-  margin: 2px;
-  margin-right: 4.7em;
-  margin-left: 3em;
-  display: inline;
+  margin: 0px;
+  padding-right: 4.7em;
+  padding-left: 8.5vw;
+  display: inline-block;
   float: right;
   width: 23%;
+  border-left: 1px solid black;
+}
+
+#proj1 h3 {
+  text-align: center;
+}
+
+#proj2 h3 {
+text-align: center;
+}
+
+#proj1 p {
+
+}
+
+#proj2 p {
+
 }
 
 #projects img {
