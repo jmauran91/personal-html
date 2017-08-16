@@ -68,7 +68,7 @@ div #projduo {
   display: inline-block;
   float: right;
   width: 23%;
-  border-left: 1px solid black;
+  border-left: 4px solid black;
 }
 
 #proj1 h3 {
@@ -93,4 +93,15 @@ text-align: center;
   display: inline;
   margin: 32px;
   height: 70%;
+}
+
+/* FOR SMARTPHONES */
+
+@media only screen and (max-width: 480px) {
+
+  .projects{
+    display: none;
+  }
+
+
 }

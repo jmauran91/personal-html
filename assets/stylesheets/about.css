@@ -59,3 +59,14 @@
   height: auto;
   border: 4px solid white;
 }
+
+/* FOR SMARTPHONES */
+
+@media only screen and (max-width: 480px) {
+
+  .about {
+    display: none;
+  }
+
+
+}

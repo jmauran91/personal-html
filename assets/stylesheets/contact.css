@@ -1,110 +1,121 @@
-.contact {
-  position: relative;
-  height: 35vh;
-  width: 100vw;
-  background-color: #BDBDBD;
-  border-top: 6px solid white;
+@media only screen and (min-width: 481px) {
+
+  .contact {
+    position: relative;
+    height: 35vh;
+    width: 100vw;
+    background-color: #BDBDBD;
+    border-top: 6px solid white;
+  }
+
+  #contact {
+    position: absolute;
+    height: 81%;
+    width: 95%;
+    margin-left: 2.5em;
+    margin-right: auto;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    background-color: #9E9E9E;
+    justify-content: center;
+    padding: 0px;
+    border-left: 6px solid black;
+  }
+
+  #contact h3 {
+    margin-top: 1.3em;
+    margin-left: 2.5em;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 140%;
+    color: white;
+  }
+
+  #contact_info{
+    height: 60%;
+  }
+
+  #contact_info span {
+    vertical-align: top;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 100%;
+    position: relative;
+  }
+
+  #email{
+    margin-left: 8vw;
+    margin-right: 3vw;
+    display: inline-block;
+  }
+
+  #email:after{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    content:' ';
+    display:block;
+    margin-top: .8em;
+    border:1px solid black;
+
+  }
+  #phone{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 1em;
+    display: inline-block;
+  }
+
+  #phone:after{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    content:' ';
+    display:block;
+    margin-top: .8em;
+    border:1px solid black;
+
+  }
+
+  #linkedin{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 2em;
+    display: inline-block;
+  }
+
+  #linkedin:after{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    content:' ';
+    display:block;
+    margin-top: .8em;
+    border:1px solid black;
+  }
+
+  #github {
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 3em;
+    display: inline-block;
+  }
+
+  #github:after{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    content:' ';
+    display:block;
+    margin-top: .8em;
+    border:1px solid black;
+  }
 }
 
-#contact {
-  position: absolute;
-  height: 81%;
-  width: 95%;
-  margin-left: 2.5em;
-  margin-right: auto;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
-  background-color: #9E9E9E;
-  justify-content: center;
-  padding: 0px;
-  border-left: 6px solid black;
-}
+/* FOR SMARTPHONES */
 
-#contact h3 {
-  margin-top: 1.3em;
-  margin-left: 2.5em;
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 140%;
-  color: white;
-}
+@media only screen and (max-width: 480px) {
 
-#contact_info{
-  height: 60%;
-}
+  .contact {
+    display: none !important;
+  }
 
-#contact_info span {
-  vertical-align: top;
-  font-family: 'Fira Sans', sans-serif;
-  font-size: 100%;
-  position: relative;
-}
-
-#email{
-  margin-left: 10vw;
-  margin-right: 3vw;
-  display: inline-block;
-}
-
-#email:after{
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  content:' ';
-  display:block;
-  margin-top: .8em;
-  border:1px solid black;
-
-}
-#phone{
-  margin-left: 3vw;
-  margin-right: 3vw;
-  margin-top: 1.3em;
-  display: inline-block;
-}
-
-#phone:after{
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  content:' ';
-  display:block;
-  margin-top: .8em;
-  border:1px solid black;
-
-}
-
-#linkedin{
-  margin-left: 3vw;
-  margin-right: 3vw;
-  margin-top: 2.6em;
-  display: inline-block;
-}
-
-#linkedin:after{
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  content:' ';
-  display:block;
-  margin-top: .8em;
-  border:1px solid black;
-
-}
-
-#github {
-  margin-left: 4vw;
-  margin-right: 4vw;
-  margin-top: 4em;
-  display: inline-block;
-
-}
-
-#github:after{
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  content:' ';
-  display:block;
-  margin-top: .8em;
-  border:1px solid black;
 }

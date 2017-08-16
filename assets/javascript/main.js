@@ -26,3 +26,21 @@ window.onload=function() {
     })
   }, 2850)
 };
+
+$( document ).ready(function() {
+  $( ".hamburger-menu-x" ).hide();
+  $( ".navbar").hide();
+  $( ".hamburger-menu").click(function() {
+    $(" .navbar").toggle( "slow", function() {
+      $( ".hamburger-menu").hide();
+      $( ".hamburger-menu-x").show();
+    });
+  });
+
+$( ".hamburger-menu-x" ).click(function() {
+  $( ".navbar" ).toggle( "slow", function() {
+    $( ".hamburger-menu-x").hide();
+    $( ".hamburger-menu").show();
+  });
+});
+});
