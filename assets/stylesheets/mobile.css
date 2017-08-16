@@ -1,0 +1,182 @@
+
+/* FOR SMARTPHONES */
+
+@media only screen and (max-width: 480px) {
+
+  .landing-container {
+    display: none;
+  }
+
+  .show-small {
+    display: inline;
+  }
+
+  .topbar-small {
+    width: 100%;
+    height: 10vh;
+    vertical-align: top;
+    background-color: #336699;
+  }
+
+  .main-small-header {
+    font-family: 'Cantarell', sans-serif, italic;
+    font-size: 350%;
+    text-align: center;
+  }
+
+  .about-small {
+    background-color: #BDBDBD;
+    padding-top: 12px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-bottom: 2px solid black;
+  }
+
+  .about-small span {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 100%;
+    line-height: 180%;
+  }
+
+  .about-small-header {
+    margin-bottom: .8em;
+  }
+
+  h3 {
+    font-family: 'Cantarell', sans-serif, italic;
+    font-size: 250%;
+    margin: 0px;
+    padding: 6px;
+  }
+
+  h3:after{
+    margin-right: 20em;;
+    width: 45%;
+    content:' ';
+    display:block;
+    margin-top: 6px;
+    border:1px solid black;
+
+  }
+
+  .projduo-small {
+    background-color: #9E9E9E;
+    padding: 12px 24px;
+    border-bottom: 2px solid black;
+  }
+
+  .proj1-small {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 100%;
+    line-height: 180%;
+    padding-bottom: 20px;
+  }
+
+  .proj2-small{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 100%;
+    line-height: 180%;
+    padding-bottom:24px;
+  }
+
+  .proj1-small h4 {
+    text-align: center;
+    color: white;
+  }
+
+  .proj1-small h4:after {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    content:' ';
+    display:block;
+    margin-top: .8em;
+    border:1px solid black;
+  }
+
+  .proj2-small h4 {
+    text-align: center;
+    color: white;
+  }
+
+  .proj2-small h4:after {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    content:' ';
+    display:block;
+    margin-top: .8em;
+    border:1px solid black;
+  }
+
+  .contact-small {
+    padding: 12px 24px;
+    background-color: #BDBDBD;
+    height: 35vh;
+  }
+
+  .contact-small li{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 100%;
+    line-height: 180%;
+  }
+
+  .hamburger-menu {
+    background:none;
+    position:absolute;
+    top:0;
+    left:0;
+    line-height:45px;
+    padding:5px 15px 0px 15px;
+    color:#999;
+    border:0;
+    font-size:1.4em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+  }
+
+  .hamburger-menu-x {
+    display: none;
+    background:none;
+    position:absolute;
+    top:0;
+    left:0;
+    line-height:45px;
+    padding:10px 15px 0px 15px;
+    border:0;
+    font-size:220%;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:1000000000000;
+  }
+
+  .hamburger-menu div {
+    width: 45px;
+    height: 5px;
+    background-color: black;
+    margin: 8px 0;
+  }
+
+  .navbar {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    right: 130px;
+    width: 80%;
+  }
+
+  .navtext {
+    margin: 24px;
+  }
+
+  .navbar a {
+    color: white;
+  }
+
+
+}
