@@ -108,11 +108,17 @@ text-align: center;
   justify-content: space-around;
   align-items: center;
   width: 60%;
-  margin-left: 20%;
+  margin-left: 15%;
   margin-right: 20%;
+  margin-top: 6px;
 }
 
-.projtex_pix {
+#reactjs{
+  height: 120px;
+  width: 120px;
+}
+
+#python{
   height: 120px;
   width: 120px;
 }
