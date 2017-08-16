@@ -24,6 +24,8 @@
 #about h3 {
   margin-top: 3em;
   font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 140%;
   color: white;
 }
@@ -34,6 +36,8 @@
   margin-right: 12.5em;
   margin-left: 3.5em;
   font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 100%;
   line-height: 180%;
 }

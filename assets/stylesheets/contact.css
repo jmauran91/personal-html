@@ -26,6 +26,8 @@
     margin-top: 1.3em;
     margin-left: 2.5em;
     font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 140%;
     color: white;
   }
@@ -37,6 +39,8 @@
   #contact_info span {
     vertical-align: top;
     font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
     font-size: 100%;
     position: relative;
   }
