@@ -55,44 +55,25 @@ div #projhead{
 #projduo {
   margin-top: 1.2em;
   display: flex;
+  flex-direction: row;
 }
 
+#projduo div {
+  margin: 0px;
+  border-left: 4px solid black;
+  width: 17%;
+  padding: 0 4vw;
+}
+
+#projduo p {
+  font-size: 80%;
+}
 
 
 #proj1 {
-  margin: 0px;
-  padding-right: 3em;;
-  padding-left: 3em;
-  display: inline-block;
-  float: left;
-  width: 30%;
+  border-left: none !important;
 }
 
-#proj2 {
-  margin: 0px;
-  padding-right: 4.7em;
-  padding-left: 8.5vw;
-  display: inline-block;
-  float: right;
-  width: 23%;
-  border-left: 4px solid black;
-}
-
-#proj1 h3 {
-  text-align: center;
-}
-
-#proj2 h3 {
-text-align: center;
-}
-
-#proj1 p {
-
-}
-
-#proj2 p {
-
-}
 
 #projects img {
   float: left;
